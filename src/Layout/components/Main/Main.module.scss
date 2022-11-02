@@ -1,0 +1,225 @@
+.wrapper {
+    display: block;
+}
+
+.inner {
+    background-color: #f2f3f4;
+    width: 100%;
+}
+
+.menu {
+    background-color: #ee2624;
+    width: 100%;
+    min-width: 1932px;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        color: white;
+        list-style: none;
+        flex: auto;
+        margin: 0;
+        padding: 0;
+
+        li {
+            min-height: 48px;
+            min-width: 218px;
+            display: flex;
+            text-align: center;
+            padding: 12px 8px 12px 8px;
+
+            &:hover {
+                background-color: #f2f3f4;
+                background-color: #f1514f !important;
+                transition:1s;
+            }
+
+            div {
+                position: absolute;
+                height: 3px;
+                top: 141px;
+                width: 205px;
+                background-color: red;
+
+                &:active {
+                    background-color: rgb(242 240 240);
+                }
+            }
+
+        }
+
+        button {
+            max-height: 22px;
+            min-width: 202px;
+            color: white;
+            background: #ee2624;
+
+            &:hover {
+                background-color: #f2f3f4;
+                background-color: #f1514f !important;
+            }
+        }
+    }
+}
+
+.container {
+    min-width: 1308px;
+    min-height: 48px;
+}
+
+.bar {
+    min-width: 1912px;
+    min-height: 358px;
+    background-color: #fff;
+    display: block;
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Items {
+        min-width: 1912px;
+        min-height: 120px;
+    }
+}
+
+.main {
+    background-color: #f2f3f4;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.flash-sale {
+    min-width: 1308px;
+    max-height: 282px;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+
+    .bannerFlashsale {
+        min-width: 1308px;
+        min-height: 60px;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: #0f62fe;
+        }
+    }
+
+    .logoFS {
+        height: 28px;
+        width: 119px;
+        background: url("https://web-static.scdn.vn/sendo-buyers-flash-sale-widget/b172e83a/w3front/static/images/6d0b98fffda3d7d5.svg") center center no-repeat;
+    }
+}
+
+.itemsFlashsale {
+    max-height: 221px;
+    max-width: 1308px;
+    margin-bottom: 16px;
+}
+
+.card-FS {
+    margin-bottom: 9px;
+    border-radius: 10px;
+    margin-right: 20px;
+    min-height: 204px;
+    max-width: 144px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%), 0 -2px 2px 0 rgb(0 0 0 / 4%);
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 12%), 0 -4px 8px 0 rgb(0 0 0 / 4%);
+    }
+
+    .imgFS {
+        max-width: 144px;
+        max-height: 144px;
+        min-width: 144px;
+        min-height: 144px;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+    }
+
+    .imgsale {
+        max-width: 71px;
+        max-height: 20px;
+        margin-left: 10px;
+        border-radius: 4px;
+        position: absolute;
+        bottom: 61px;
+    }
+
+    .car {
+        display: block;
+        max-width: 128px;
+        max-height: 28px;
+
+        div {
+            display: flex;
+            padding-left: 10px;
+            align-items: center;
+
+            strike {
+                color: #a9b0b6;
+            }
+
+            h6 {
+                padding-left: 4px;
+                color: #ee2624;
+            }
+        }
+
+        h4 {
+            color: red;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+    }
+}
+
+.trade-sale {
+    min-width: 1308px;
+    max-height: 513px;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+
+    .bannerTradesale {
+        min-width: 1308px;
+        min-height: 60px;
+        padding: 16px;
+        display: block;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #0f62fe;
+        }
+    }
+}
+
+.itemsTradesale {
+    max-height: 221px;
+    max-width: 1308px;
+    margin-bottom: 16px;
+}

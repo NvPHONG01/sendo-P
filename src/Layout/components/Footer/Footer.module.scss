@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    background-color: #f2f3f4;
+    display: block;
+}
+.Footer-1{
+    max-width: 1276px;
+    min-height: 168px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .container{
+        min-width: 319px;
+        min-height: 152px;
+        display: block;
+        text-align: center;
+        img{
+            max-height: 88px;
+            max-width: 130px;
+        }
+    }
+}
+
+
+
+.Footer-2{
+    max-width: 1921px;
+    min-height: 168px;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f3f4;
+}

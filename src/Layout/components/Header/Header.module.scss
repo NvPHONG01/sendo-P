@@ -1,0 +1,140 @@
+.wrapper {
+    min-height: 9.6rem;
+    min-width: 1940px;
+    font-size: 12px;
+}
+
+.inner {
+    width: 100%;
+}
+
+.top {
+    background-color: #d52220;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        cursor: pointer;
+        position: relative;
+        width: 1308px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+
+        span {
+            color: #fff;
+            font-weight: bold;
+            margin-right: 2.4rem;
+            line-height: 1.6rem;
+        }
+    }
+}
+
+.bottom {
+    background-color: #ee2624;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        cursor: pointer;
+        position: relative;
+        width: 1308px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.logo {
+    max-width: 109px;
+    max-height: 48px;
+    display: block;
+    width: 100%;
+    fill: #fff;
+    height: 4.8rem;
+
+    img {
+        max-width: 109px;
+        max-height: 48px;
+    }
+}
+
+.menu {
+    padding: 8px;
+    margin: 8px;
+
+    object {
+        fill: inherit;
+    }
+}
+
+.search {
+    border-radius: 5px;
+    min-width: 932px;
+    min-height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+        font-size: 15px;
+        flex: 1;
+        max-width: 900px;
+        height: 24px;
+        font-weight: inherit;
+        z-index: 999;
+    }
+}
+
+.ConfigSearch {
+    background-color: #fff;
+    border-radius: 5px;
+    min-width: 40px;
+    min-height: 40px;
+    margin-left: 4px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .login {
+        min-height: 32px;
+        min-width: 103px;
+    }
+}
+
+.search-result {
+    width: 932px;
+    margin-top: -8px;
+    z-index: 2;
+    position: absolute;
+    left: 161px;
+    top: 62px;
+
+    ul {
+        flex-direction: column;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+
+        li {
+            padding: 0px 18px 0px 18px;
+            min-width: 908px;
+            min-height: 32px;
+
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}
